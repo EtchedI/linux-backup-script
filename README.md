@@ -12,6 +12,10 @@ This is a simple shell script that demonstrates basic Linux terminal skills:
 - Creates a timestamped backup folder in `Backup/`  
 - Copies the files and confirms success
 
+## Run It
+1. cd /c/Users/ryclt
+2. ./backup_script.sh
+   
 ##  The Script
 
 **`backup_script.sh`**
@@ -30,3 +34,4 @@ cp -r "$SOURCE" "$DEST"
 
 echo " Backup done! See: $DEST"
 read -p "Press Enter to exit"
+
