@@ -7,5 +7,5 @@ echo "Backing up $SOURCE to $DEST"
 
 cp -r "$SOURCE" "$DEST"
 
-echo "✅ Backup done! See: $DEST"
+echo "Backup done! See: $DEST"
 read -p "Press Enter to exit"
